@@ -87,7 +87,7 @@
                                     	Du & Huiyun
                                     </div>
                                     <div class="banner-text withlove medium light" style="color: rgb(253, 159, 175);">
-                                    	<h1 style="color: pink;">We've been together <div style="color: rgb(252, 234, 237);" id="timeSince">0 days 0 hours 0 minutes 0 seconds</div> </h1>
+                                    	<h1 style="color: pink; font-family:'Courier New', Courier, monospace">We've been together <div style="color: rgb(252, 234, 237);" id="timeSince">0 days 0 hours 0 minutes 0 seconds</div> </h1>
                                     </div>
 									
 
@@ -103,12 +103,12 @@
 											var hours = Math.floor((duration / (1000 * 60 * 60)) % 24);
 											var days = Math.floor(duration / (1000 * 60 * 60 * 24));
 									
-											document.getElementById('timeSince').innerText = days + ' days \n' + hours + ':' + minutes + ':' + seconds + ' since';
+											document.getElementById('timeSince').innerText = days + ' days \n' + hours + 'h:' + minutes + 'm:' + seconds + 's';
 										}, 1000);
 									</script>
 									
                                     <div id="banner-date" style="color: pink;">
-                                    	- Sep / 23rd / 23:44 / 2023 -
+                                    	- since Sep / 23rd / 23:44 / 2023 -
                                     </div>     
                                     
 								</div> 
